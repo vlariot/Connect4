@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#game-container{
+    display: none;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+
+    background-color: darkorchid;
+    border: 10px solid purple;
+
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+
+    background-color: white;
+    border-radius: 50px;
+    margin: 5px;
+    border: 5px solid purple;
+}
+
+.red-piece{
+    background-color: red;
+}
+
+.yellow-piece{
+    background-color: yellow;
+}
